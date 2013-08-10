@@ -60,9 +60,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+a {
+    color: #3081ac;
+}
+
 body {
     background: url('../img/bg.jpg');
     font-family: Arial, sans-serif;
+    font-size: 13px;
 }
 
 #header {
@@ -187,7 +192,9 @@ body {
     margin: -89px auto 0;
     background: #ffffff;
     width: 981px;
-    height: 700px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 50px;
 }
 
 #footer {
@@ -255,6 +262,10 @@ a#download {
 
 #footer-menu {
     list-style-type: none;
+}
+
+#footer-menu li {
+    margin-bottom: 10px;
 }
 
 #footer-menu li a {
@@ -357,14 +368,40 @@ a#download {
 .showcase-button-wrapper span:hover {
     background: url('../img/slider_button_hover.png') no-repeat;
 }
- /*
-.showcase-button-wrapper .switcher {
-    width: 14px;
-    height: 14px;
-    background: url('../img/slider_button.png') no-repeat;
-    border: 1px solid #ff0000;
-}  */
 
+
+.home-content {
+    float: left;
+    margin-top: 10px;
+    margin-left: 33px;
+    width: 425px;
+}
+
+.home-content h2 {
+    font-size: 20px;
+    color: #3f3f3f;
+}
+
+.home-content .content {
+    margin-top: 10px;
+}
+
+.home-content img {
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #e2e2e2;
+}
+
+.home-content h3, .home-content h3 a {
+    color: #368db4;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.home-content .text {
+    font-size: 14px;
+    color: #6f6f6f;
+}
 
 
 
