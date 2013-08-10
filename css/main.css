@@ -74,6 +74,7 @@ body {
     width: 100%;
     height: 116px;
     background: #000000;
+    position: relative;
 }
 
 #language-line {
@@ -84,9 +85,9 @@ body {
 #header-wrapper {
     width: 100%;
     position: relative;
-    height:  80px;
+    height: 78px;
     background: #ffffff;
-    margin-top: 7px;
+    margin-top: 6px;
     z-index: 1;
 }
 
@@ -189,15 +190,18 @@ body {
 }
 
 #content {
-    margin: -89px auto 0;
+    margin: 0 auto 0;
     background: #ffffff;
     width: 981px;
     position: relative;
     overflow: hidden;
-    padding-bottom: 50px;
+    padding-bottom: 102px;
+    clear: both;
+    top: -102px;
 }
 
 #footer {
+    margin-top: -102px;
     width: 100%;
     height: 260px;
     background: #373737;
@@ -326,7 +330,7 @@ a#download {
     font-size: 30px;
     color: #050505;
     font-weight: bold;
-    margin: 5px 0;
+    margin: 0 0 5px 0;
 }
 
 .showcase-content .text {
