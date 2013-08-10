@@ -78,12 +78,16 @@ body {
 
 #header-wrapper {
     width: 100%;
+    position: relative;
+    height:  80px;
+    background: #ffffff;
+    margin-top: 7px;
+    z-index: 1;
 }
 
 .center-wrapper {
     width: 981px;
     margin: 0 auto;
-/*    border: 1px solid #ff0000;*/
     position: relative;
 }
 
@@ -93,6 +97,9 @@ body {
     background: url('../img/logo_bg.png') no-repeat;
     margin-left: -147px;
     float: left;
+    position: relative;
+    z-index: 3;
+    margin-top: -90px;
 }
 
 #logo img {
@@ -103,8 +110,10 @@ body {
 #menu-wrapper {
     height: 79px;
     float: left;
-    margin-top: 7px;
+    margin-top: -83px;
     margin-left: -30px;
+    position: relative;
+    z-index: 3;
 }
 
 #menu-left-border {
@@ -164,6 +173,14 @@ body {
     margin-top: -79px;
     height: 79px;
     background: #ffffff;
+}
+
+#left-wrapper {
+    width: 25%;
+    float: left;
+    height: 79px;
+    background: #ffffff url('../img/logo_bg3.png') no-repeat right top;
+    margin-top: 7px;
 }
 
 #content {
@@ -274,6 +291,8 @@ a#download {
     height: 468px;
     margin: 0 auto;
     background: url('../img/home.jpg') no-repeat;
+    z-index: 2;
+    position: relative;
 }
 
 
@@ -285,6 +304,7 @@ a#download {
     margin: -249px 0 0 471px;
     position: absolute;
     padding: 25px;
+    z-index: 4;
 }
 
 .showcase-content {
