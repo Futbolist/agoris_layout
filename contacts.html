@@ -13,6 +13,7 @@
 
     <script src="js/jquery-1.10.1.js"></script>
     <script src="js/jquery.aw-showcase.js"></script>
+    <script src="js/jquery-ui.js"></script>
     <script src="js/main.js"></script>
 </head>
 <body class="page">
@@ -59,7 +60,29 @@
                         <p>38(095) 467-72-43</p>
                     </div>
                     <div id="phone-button">
-                        <a href="" class="button phone">Перезвонить вам</a>
+                        <a href="" id="callback" class="button phone">Перезвонить вам</a>
+                    </div>
+                    <div id="dialog-form" title="Обратный звонок - мы перезвоним Вам сами!">
+                        <form action="">
+                            <div class="input">
+                                <label for="callback_name">Ваше имя*</label>
+                                <input id="callback_name" type="text" />
+                            </div>
+
+                            <div class="input">
+                                <label for="callback_phone">Телефон</label>
+                                <input id="callback_phone" type="text" />
+                            </div>
+                            <div class="hint">Пожалуйста, введите символы с картинки</div>
+                            <div class="actions">
+                                <img class="captcha-image" src="img/captcha.png" />
+                                <span class="captcha-arrow">&rarr;</span>
+                                <input class="captcha" type="text" />
+                                <br/>
+                                <a href="" id="form-submit" class="button">ОТПРАВИТЬ</a>
+                            </div>
+                        </form>
+
                     </div>
                 </div>
 
@@ -180,5 +203,7 @@
             <span>Agoris © 2013. Все права защищены</span>
         </div>
     </div>
+
+
 </body>
 </html>

@@ -49,4 +49,30 @@ $(document).ready(function()
         $('.more-link', parent.parent()).show();
         return false;
     });
+
+
+    $( "#dialog-form" ).dialog({
+        autoOpen: false,
+        height: 384,
+        width: 394,
+        modal: true,
+
+        open: function (event, ui) {
+            $('.ui-widget-header').addClass('override');
+            $('.ui-widget-header a').addClass('override');
+            $('.ui-widget-overlay').addClass('override');
+        },
+        close: function() {
+        },
+        closeText: ''
+    });
+
+
+    $( "#callback" ).button().click(function() {
+        var widget = $( "#dialog-form" ).dialog( "open" );
+        $(".ui-dialog-titlebar-close span", widget).removeClass("ui-icon-closethick").addClass("ui-icon-minusthick");
+        return false;
+    });
 });
+
+

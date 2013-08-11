@@ -548,7 +548,7 @@ h1 {
     margin: 0 0 20px 0;
 }
 
-#contact-form .input {
+.input {
     width: 100%;
     margin-bottom: 20px;
 }
@@ -577,7 +577,7 @@ textarea {
     padding: 5px;
 }
 
-#contact-form .hint {
+.hint {
     margin-left: 90px;
     font-size: 11px;
     color: #929292;
@@ -587,15 +587,15 @@ textarea {
     margin-left: 90px;
 }
 
-#captcha-image {
+.captcha-image {
     margin-top: -2px;
 }
 
-#captcha-arrow {
+.captcha-arrow {
     margin-left: 10px;
 }
 
-#contact-form input#captcha {
+input.captcha, #dialog-form input.captcha {
     width: 132px;
     height: 62px;
     margin-top: 2px;
@@ -683,6 +683,63 @@ textarea {
     padding: 20px;
     overflow: hidden;
 }
+
+#dialog-form {
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.transparent { background:transparent }
+
+/* Styles below are overriden styles found in jquery-ui.css */
+.ui-widget-header.override {
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    color: #DD4814;
+    font-weight: bold;
+}
+.ui-widget-header.override a {
+    color: #DD4814;
+}
+
+.ui-widget-overlay {
+    height:100%;
+    left:0;
+    position:absolute;
+    top:0;
+    width:100%;
+}
+
+.ui-widget-overlay.override {
+    background: repeat-x scroll 50% 50% #222222;
+    opacity:0.7;
+    filter:Alpha(Opacity=70);
+}
+
+.ui-dialog {
+    padding: 15px;
+    background: #ffffff;
+}
+
+.ui-dialog-title {
+    font-size: 18px;
+    color: #050505;
+}
+
+.ui-dialog-titlebar-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: url('../img/close_icon.png') no-repeat;
+    border: none;
+    width: 15px;
+    height: 15px;
+}
+
+#dialog-form input {
+    width: 250px;
+}
+
 
 
 /* ==========================================================================
