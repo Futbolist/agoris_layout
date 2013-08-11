@@ -248,12 +248,12 @@ a#download {
     background: url('../img/download_bg.png') no-repeat;
 }
 
-#phone {
+#footer #footer-phone {
     font-size: 18px;
     color: #b4b6b8;
 }
 
-#email a {
+#footer #footer-email a {
     font-size: 13px;
     color: #368db4;
 }
@@ -482,6 +482,128 @@ h1 {
 }
 
 
+#phone-icon {
+    width: 28px;
+    height: 32px;
+    background: url(../img/phone.png) no-repeat;
+    float: left;
+}
+
+#phone-wrapper p {
+    color: #212125;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+#phone-number {
+    float: left;
+    margin-left: 20px;
+}
+
+#phone-button {
+    float: left;
+    margin-left: 50px;
+    width: 165px;
+    height: 35px;
+    border: 1px dashed #a8a8a9;
+    text-align: center;
+    padding: 15px;
+}
+
+#email-wrapper {
+    clear: both;
+    margin-top: 120px;
+}
+
+#email-icon {
+    float: left;
+    width: 28px;
+    height: 20px;
+    background: url(../img/email.png) no-repeat;
+}
+
+#email-link {
+    float: left;
+    margin-left: 20px;
+}
+
+#email-link a {
+    font-size: 16px;
+}
+
+#contact-form {
+    width: 545px;
+    border: 1px dashed #a8a8a9;
+    padding: 30px;
+    clear: both;
+    margin-top: 200px;
+}
+
+#contact-form h3 {
+    font-size: 20px;
+    color: #212125;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+#contact-form .input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    font-size: 14px;
+    width: 90px;
+    float: left;
+    clear: left;
+    line-height: 33px;
+    margin-top: 3px;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 420px;
+    height: 33px;
+    border: 1px solid #d8d8d8;
+    line-height: 33px;
+    font-size: 16px;
+    padding: 0 5px;
+}
+
+#contact-form textarea {
+    height: 100px;
+    line-height: 18px;
+    padding: 5px;
+}
+
+#contact-form .hint {
+    margin-left: 90px;
+    font-size: 11px;
+    color: #929292;
+}
+
+#contact-form .actions {
+    margin-left: 90px;
+}
+
+#captcha-image {
+    margin-top: -2px;
+}
+
+#captcha-arrow {
+    margin-left: 10px;
+}
+
+#contact-form input#captcha {
+    width: 132px;
+    height: 62px;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+#form-submit {
+    margin-top: 25px;
+}
 
 
 /* ==========================================================================
