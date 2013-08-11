@@ -85,10 +85,11 @@ body {
 #header-wrapper {
     width: 100%;
     position: relative;
-    height: 78px;
+    height: 79px;
     background: #ffffff;
     margin-top: 6px;
     z-index: 1;
+    box-shadow: 0 15px 30px -25px black;
 }
 
 .center-wrapper {
@@ -137,6 +138,7 @@ body {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    box-shadow: 0 15px 25px -25px black;
 }
 
 #menu li {
@@ -198,6 +200,7 @@ body {
     padding-bottom: 102px;
     clear: both;
     top: -102px;
+    box-shadow: inset 0 8px 6px -6px black;
 }
 
 #footer {
@@ -308,6 +311,14 @@ a#download {
     background: url('../img/home.jpg') no-repeat;
     z-index: 2;
     position: relative;
+    box-shadow: inset 0 8px 6px -6px black;
+}
+
+#main-image-wrapper {
+    width: 919px;
+    height: 468px;
+    margin: 0 auto;
+    box-shadow: 0 15px 16px -6px rgba(50, 50, 50, 0.45);
 }
 
 
@@ -320,6 +331,7 @@ a#download {
     position: absolute;
     padding: 25px;
     z-index: 4;
+    box-shadow: 0 15px 25px -25px black;
 }
 
 .showcase-content {
