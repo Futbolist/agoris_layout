@@ -49,64 +49,87 @@
             </div>
         </div>
         <div id="content-wrapper">
-            <h1>Контакты</h1>
+            <div id="content-left">
+                <h1>Контакты</h1>
 
-            <div id="phone-wrapper">
-                <div id="phone-icon"></div>
-                <div id="phone-number">
-                    <p>38(095) 467-72-43</p>
-                    <p>38(095) 467-72-43</p>
+                <div id="phone-wrapper">
+                    <div id="phone-icon"></div>
+                    <div id="phone-number">
+                        <p>38(095) 467-72-43</p>
+                        <p>38(095) 467-72-43</p>
+                    </div>
+                    <div id="phone-button">
+                        <a href="" class="button phone">Перезвонить вам</a>
+                    </div>
                 </div>
-                <div id="phone-button">
-                    <a href="" class="button phone">Перезвонить вам</a>
+
+                <div id="email-wrapper">
+                    <div id="email-icon"></div>
+                    <div id="email-link">
+                        <a href="mailto:info@agoris.com.ua">info@agoris.com.ua</a>
+                    </div>
+                </div>
+
+
+                <div id="contact-form">
+                    <h3>Для связи с нами используйте, пожалуйста, контактную форму ниже.</h3>
+                    <form action="">
+                        <div class="input">
+                            <label for="name">Ваше имя*</label>
+                            <input id="name" type="text" />
+                        </div>
+                        <div class="input">
+                            <label for="company">Компания</label>
+                            <input id="company" type="text" />
+                        </div>
+                        <div class="input">
+                            <label for="phone">Телефон</label>
+                            <input id="phone" type="text" />
+                        </div>
+                        <div class="input">
+                            <label for="email">E-mail</label>
+                            <input id="email" type="text" />
+                        </div>
+                        <div class="input">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message"></textarea>
+                        </div>
+
+                        <div class="input">
+                            <div class="hint">Пожалуйста, введите символы с картинки</div>
+                            <div class="actions">
+                                <img id="captcha-image" src="img/captcha.png" />
+                                <span id="captcha-arrow">&rarr;</span>
+                                <input id="captcha" type="text" />
+                                <br/>
+                                <a href="" id="form-submit" class="button">ОТПРАВИТЬ</a>
+                            </div>
+                        </div>
+
+
+                    </form>
                 </div>
             </div>
-
-            <div id="email-wrapper">
-                <div id="email-icon"></div>
-                <div id="email-link">
-                    <a href="mailto:info@agoris.com.ua">info@agoris.com.ua</a>
+            <div id="content-right">
+                <div id="subscribe-wrapper">
+                    <div id="subscribe-header"><span>Подписаться на рассылку</span></div>
+                    <div id="subscribe-content">
+                        <form>
+                            <input type="text" id="subscribe-email" placeholder="Ваш e-mail" />
+                            <a href="" class="button">ПОДПИСАТЬСЯ</a>
+                        </form>
+                    </div>
                 </div>
-            </div>
 
-
-            <div id="contact-form">
-                <h3>Для связи с нами используйте, пожалуйста, контактную форму ниже.</h3>
-                <form action="">
-                    <div class="input">
-                        <label for="name">Ваше имя*</label>
-                        <input id="name" type="text" />
-                    </div>
-                    <div class="input">
-                        <label for="company">Компания</label>
-                        <input id="company" type="text" />
-                    </div>
-                    <div class="input">
-                        <label for="phone">Телефон</label>
-                        <input id="phone" type="text" />
-                    </div>
-                    <div class="input">
-                        <label for="email">E-mail</label>
-                        <input id="email" type="text" />
-                    </div>
-                    <div class="input">
-                        <label for="message">Сообщение</label>
-                        <textarea id="message"></textarea>
-                    </div>
-
-                    <div class="input">
-                        <div class="hint">Пожалуйста, введите символы с картинки</div>
-                        <div class="actions">
-                            <img id="captcha-image" src="img/captcha.png" />
-                            <span id="captcha-arrow">&rarr;</span>
-                            <input id="captcha" type="text" />
-                            <br/>
-                            <a href="" id="form-submit" class="button">ОТПРАВИТЬ</a>
+                <div id="information-wrapper">
+                    <div id="information-header"><span>ИНФОРМАЦИЯ</span></div>
+                    <div id="information-content">
+                        <div class="text">
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure.
+                            Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet
                         </div>
                     </div>
-
-
-                </form>
+                </div>
             </div>
         </div>
     </div>

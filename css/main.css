@@ -431,6 +431,7 @@ h1 {
     font-size: 30px;
     font-weight: bold;
     color: #000000;
+    margin: 0 0 15px 0;
 }
 
 .product {
@@ -552,7 +553,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-#contact-form label {
+label {
     font-size: 14px;
     width: 90px;
     float: left;
@@ -561,7 +562,7 @@ h1 {
     margin-top: 3px;
 }
 
-#contact-form input, #contact-form textarea {
+input, textarea {
     width: 420px;
     height: 33px;
     border: 1px solid #d8d8d8;
@@ -570,7 +571,7 @@ h1 {
     padding: 0 5px;
 }
 
-#contact-form textarea {
+textarea {
     height: 100px;
     line-height: 18px;
     padding: 5px;
@@ -603,6 +604,84 @@ h1 {
 
 #form-submit {
     margin-top: 25px;
+}
+
+#content-left, #content-right {
+    float: left;
+}
+
+#content-left {
+    width: 605px;
+}
+
+#content-right {
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 285px;
+    height: 200px;
+}
+
+#subscribe-wrapper, #information-wrapper {
+    box-shadow: 0 15px 30px -25px black;
+}
+
+#subscribe-header {
+    width: 100%;
+    height: 40px;
+    background: #373737 url('../img/subscribe_icon.png') no-repeat 240px center;
+    color: #cdcdcd;
+    font-size: 12px;
+}
+
+#subscribe-header span {
+    margin-left: 20px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#subscribe-content {
+    width: 243px;
+    border: 1px solid #e7e7e7;
+    border-top: none;
+    padding: 20px;
+    overflow: hidden;
+}
+
+#subscribe-email {
+    width: 230px;
+    margin-bottom: 20px;
+}
+
+#subscribe-content a {
+    float: right;
+}
+
+#information-wrapper {
+    margin-top: 30px;
+}
+
+#information-header {
+    width: 100%;
+    height: 40px;
+    background: #ededed url('../img/info_icon.png') no-repeat 240px center;
+    color: #050505;
+    font-size: 12px;
+}
+
+#information-header span {
+    margin-left: 20px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#information-content {
+    width: 243px;
+    border: 1px solid #e7e7e7;
+    border-top: none;
+    padding: 20px;
+    overflow: hidden;
 }
 
 
