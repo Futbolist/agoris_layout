@@ -305,9 +305,8 @@ a#download {
 
 
 #main-image {
-    width: 919px;
-    height: 468px;
-    margin: 0 auto;
+    width: 100%;
+    height: 100%;
     background: url('../img/home.jpg') no-repeat;
     z-index: 2;
     position: relative;
@@ -321,6 +320,9 @@ a#download {
     box-shadow: 0 15px 16px -6px rgba(50, 50, 50, 0.45);
 }
 
+.page #main-image-wrapper {
+    height: 214px;
+}
 
 #showcase {
     width: 359px;
@@ -420,6 +422,64 @@ a#download {
 }
 
 
+#content-wrapper {
+    margin-left: 33px;
+    margin-top: 25px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.product {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e2e2e2;
+    position: relative;
+    overflow: hidden;
+    width: 915px;
+}
+
+.product .product-image {
+    display: inline;
+    float: left;
+    width: 278px;
+    border: 1px solid #e2e2e2;
+}
+
+.product .product-description {
+    float: left;
+    margin-left: 25px;
+    width: 600px;
+}
+
+.product h2 {
+    font-size: 20px;
+    color: #3a3a3a;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+.product .text {
+    font-size: 14px;
+    color: #3a3a3a;
+}
+
+.more-link {
+    margin-left: 200px;
+    text-decoration: none;
+    color: #368db4;
+    border-bottom: 1px dashed #368db4;
+}
+
+.hide-link {
+    margin-left: 200px;
+    text-decoration: none;
+    color: #368db4;
+    border-bottom: 1px dashed #368db4;
+}
 
 
 

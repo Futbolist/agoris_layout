@@ -34,4 +34,19 @@ $(document).ready(function()
             viewline:				false, /* If set to true content_width, thumbnails, transition and dynamic_height will be disabled. As for dynamic height you need to set the width and height of images in the source. */
             custom_function:		null /* Define a custom function that runs on content change */
         });
+
+    $('.more-link').click(function() {
+        $(this).hide();
+        var parent = $(this).parent();
+        $('.more', parent).removeClass('hidden');
+        return false;
+    });
+
+    $('.hide-link').click(function() {
+        var parent = $(this).parent();
+        parent.addClass('hidden');
+
+        $('.more-link', parent.parent()).show();
+        return false;
+    });
 });
