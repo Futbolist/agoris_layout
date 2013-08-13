@@ -82,6 +82,27 @@ body {
     height: 27px;
 }
 
+#language {
+    margin: 0 auto;
+    width: 850px;
+    text-align: right;
+    padding-top: 5px;
+}
+
+#language span, #language a {
+    font-size: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#language span {
+    color: #ffffff;
+}
+
+#language a {
+    color: #a7a9a7;
+}
+
 #header-wrapper {
     width: 100%;
     position: relative;
