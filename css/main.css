@@ -113,6 +113,13 @@ body {
     box-shadow: 0 15px 30px -25px black;
 }
 
+#header-right-wrapper {
+    background: #000000;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
 .center-wrapper {
     width: 981px;
     margin: 0 auto;
@@ -120,10 +127,10 @@ body {
 }
 
 #logo {
-    width: 412px;
+    width: 675px;
     height: 102px;
-    background: url('../img/logo_bg.png') no-repeat;
-    margin-left: -147px;
+    background: url('../img/logo_bg.png') left 7px no-repeat;
+    margin-left: -410px;
     float: left;
     position: relative;
     z-index: 3;
@@ -132,7 +139,7 @@ body {
 
 #logo img {
     float: right;
-    margin: 18px 60px 0 0;
+    margin: 16px 60px 0 0;
 }
 
 #menu-wrapper {
